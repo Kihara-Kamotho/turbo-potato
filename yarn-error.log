@@ -1,0 +1,33 @@
+Arguments: 
+  /home/kihara/.nvm/versions/node/v19.4.0/bin/node /home/kihara/.nvm/versions/node/v19.4.0/bin/yarn add @hotwired/turbo-rails
+
+PATH: 
+  /home/kihara/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/bin:/home/kihara/.rbenv/versions/3.1.2/bin:/home/kihara/.rbenv/libexec:/home/kihara/.rbenv/plugins/ruby-build/bin:/home/kihara/.nvm/versions/node/v19.4.0/bin:/home/kihara/.rbenv/shims:/home/kihara/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.4.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+npm manifest: 
+  {
+    "name": "app",
+    "private": "true",
+    "scripts": {
+      "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=assets"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
